@@ -35,4 +35,43 @@
 #find command to search for / locate files in the filesystem, various useful flags
 ![12_find](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/97f664b1-4077-4615-bfcb-ecb85bf6c717)
 
+#df and du commands to show system space and resource utilization
+![13_df and du](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/4d1ea148-3a21-41c6-b7cf-cf5f0a254580)
+
+#head and tail commands using the -n switch to spec the number of lines to read from top or bottom
+![14_head and tail](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/4776a6e0-65e0-482e-8b6c-01a2bad84495)
+
+#tar command to pack a group of files into an archive
+![15_tar](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/a6ffdd37-c41f-45e0-b020-a0ea08b0aedd)
+
+#chmod command to change user permissions and accesses to a file
+![16_chmod](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/198be19a-ceee-4ef5-916b-7af1d205c227)
+
+#ping command - here I successfully pinged the familiar google.com domain from my Ubuntu vm
+![17_ping](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/df0439c2-de65-4cd5-af57-7d52315d8d93)
+
+#uname command - system characteristics
+![18_uname](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/0a3398b4-d7c1-4dfb-956d-4ab9bfa07ccb)
+
+#top command - system resource utilization
+![19_top](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/173bb9d0-9f54-4ddb-8c11-7b4b29f3f982)
+
+#history command - allows one to view commands ran in the past
+![20_history](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/04080a7c-028b-4a2e-be56-35c95ba825dd)
+
+#man command to get help and read documentation on a program or command
+![21_man](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/fec133bd-ee64-44df-bd82-89ac93313f6b)
+
+#hostname command - various flags to return FQDN etc
+![22_hostname](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/d554830f-6021-4be4-bc81-0b9f35dba71e)
+
+#nano - selected my favorite nano text editor to view /var/log/syslog
+![23_nano](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/32defd19-b122-4c24-9425-f0e3f765d22a)
+
+#ps command to view running processes and their various characteristics.
+![24_ps](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/9233e82d-2777-47a8-967d-35b4bed96f7f)
+
+
+
+
 
