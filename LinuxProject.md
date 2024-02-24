@@ -5,9 +5,7 @@
 ![2_aptupgrade](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/ddb16d5d-ac1d-4548-9e38-cd5dbcdd2d36)
 
 #pwd command - to print current working directory
-<img src="https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/daa458b8-6b71-4896-a31a-956d363f6fbf" height="400 width="500" />
-
-![3_pwd](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/daa458b8-6b71-4896-a31a-956d363f6fbf)
+![3_pwd](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/daa458b8-6b71-4896-a31a-956d363f6fbf) <a> </a>
 
 #cd command to change directories and navigate around the filesystem
 ![4_cd](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/599e5447-c489-4f30-aa43-d3fa6548e8dc)
