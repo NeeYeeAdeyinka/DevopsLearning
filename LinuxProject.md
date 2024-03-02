@@ -1,10 +1,10 @@
-#Documenting the various commands I have tried while learning my way around the Linux terminal.
+# Documenting the various commands I have tried while learning my way around the Linux terminal.
 
-#sudo apt upgrade to get the system files and packages up to latest versions
+### sudo apt upgrade to get the system files and packages up to latest versions
 ![1_aptupgrade](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/2603894c-730f-4bf5-86d3-381c3a8f303c)
 ![2_aptupgrade](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/ddb16d5d-ac1d-4548-9e38-cd5dbcdd2d36)
 
-#pwd command - to print current working directory
+### pwd command - to print current working directory
 
 ![3_pwd](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/daa458b8-6b71-4896-a31a-956d363f6fbf) <a> </a>
 
