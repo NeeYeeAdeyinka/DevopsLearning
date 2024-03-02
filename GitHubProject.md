@@ -1,22 +1,11 @@
-# Test Heading 1
-## Test Heading 2
-### Test Heading 3
+# Documenting the DareyIO GitHub Learning Project
 
-*This is italicized text*
+### Setting up my prerequisites - username, email etc
+![Screenshot 2024-03-02 132432](https://github.com/NeeYeeAdeyinka/DevopsLearning/assets/161120875/9da93e54-f76b-46c0-8018-7dcd662a6034)
 
-** This is bold text**
-- Item 1
-- Item 2
-- Item 3
 
-1. First item
-2. Second item
-3. Third item
 
-[visit my GitHub Profile](https://github.com/NeeYeeAdeyinka)
-
-`console.log('Welcome to my GitHub')`
-
+'local folders, initialising t
 
 
 
