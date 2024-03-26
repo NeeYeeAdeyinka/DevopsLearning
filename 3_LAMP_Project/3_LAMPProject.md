@@ -17,7 +17,6 @@
 
 ### Installing apache2
 ![Install apache2](./imgs/5.png)
-
 ![Install apache2](./imgs/6.png)
 
 ### Check that apache2 was successfully installed using the systemctl command
@@ -43,7 +42,7 @@
 ### Test that php is installed and version
 ![Test PHP](./imgs/15.png)
 
-### Make a new directory under /var/www for my LAMP Project
+### Make a new directory under /var/www for my LAMP Project - critical to grant permissions to the folder (ideally parent) using the chown -R $USER:$USER /var/www cmd
 ![setup project folder](./imgs/16.png)
 
 ### Setup a basic VirtualHost Config under /etc/apache2/sites-available - this will be a .conf file
