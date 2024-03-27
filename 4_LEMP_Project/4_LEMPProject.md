@@ -28,7 +28,7 @@
 ### Use curl to view the default index.html file being served up from my localhost / 127.0.0.1:80
 ![Curl](./imgs/8.png)
 
-### Check that the apache2 web server is up and running using http
+### Check that the nginx web server is up and running using http
 ![web page](./imgs/9.png)
 
 ### Install mysql database server
@@ -59,24 +59,24 @@
 ![test .php functionality](./imgs/22.png)
 
 ### Prepared to integrate php with mysql and serve it up on nginx webserver
-#### Logged into mysql as root and then created a new DB 'MyTestDB' and new user 'TestDBUser' - weakpassword did not work :)
+**Logged into mysql as root and then created a new DB 'MyTestDB' and new user 'TestDBUser' - weakpassword did not work :) **
 ![Login to my sql](./imgs/23.png)
 ![create TestDB and TestDBUser](./imgs/24.png)
 
-#### Logged into mysql as 'TestDBUser' and created new table within the DB - ran into some syntax errors with the SQL statements but figured it out
+**Logged into mysql as 'TestDBUser' and created new table within the DB - ran into some syntax errors with the SQL statements but figured it out **
 ![](./imgs/25.png)
 ![](./imgs/26.png)
 ![](./imgs/27.png)
 
-#### Needed to do quite a lot of custom mods to get my php script to work - apparently using special characters '@' & '$' in the TestDBuser password caused trouble - found this out in /var/log/nginx/error.log
-##### Did not work!!!
+**Needed to do quite a lot of custom mods to get my php script to work - apparently using special characters '@' & '$' in the TestDBuser password caused trouble - found this out in /var/log/nginx/error.log **
+**Did not work!!!**
 ![](./imgs/28.png)
-##### Worked!!!
+**Worked!!!** but needed me to relax the password policy with mysql> SET GLOBAL validate_password.policy = 0; after checking the policy in force with mysql> SHOW VARIABLES LIKE 'validate_password%'
 ![](./imgs/29.png)
 ##### Needed to associate TestDBUser specifically with localhost and my windows PC IP - need to investigate this further
 ![](./imgs/30.png)
 
-### Finally success smiled on me after almost 9 hours of struggles :)
+### Finally success smiled at me after almost 9 hours of struggles :)
 ![](./imgs/31.png)
 
 
