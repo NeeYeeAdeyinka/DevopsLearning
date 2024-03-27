@@ -59,16 +59,16 @@
 ![test .php functionality](./imgs/22.png)
 
 ### Prepared to integrate php with mysql and serve it up on nginx webserver
-**Logged into mysql as root and then created a new DB 'MyTestDB' and new user 'TestDBUser' - weakpassword did not work :) **
+**Logged into mysql as root and then created a new DB 'MyTestDB' and new user 'TestDBUser' - weakpassword did not work :)**
 ![Login to my sql](./imgs/23.png)
 ![create TestDB and TestDBUser](./imgs/24.png)
 
-**Logged into mysql as 'TestDBUser' and created new table within the DB - ran into some syntax errors with the SQL statements but figured it out **
+**Logged into mysql as 'TestDBUser' and created new table within the DB - ran into some syntax errors with the SQL statements but figured it out**
 ![](./imgs/25.png)
 ![](./imgs/26.png)
 ![](./imgs/27.png)
 
-**Needed to do quite a lot of custom mods to get my php script to work - apparently using special characters '@' & '$' in the TestDBuser password caused trouble - found this out in /var/log/nginx/error.log **
+**Needed to do quite a lot of custom mods to get my php script to work - apparently using special characters '@' & '$' in the TestDBuser password caused trouble - found this out in /var/log/nginx/error.log**
 **Did not work!!!**
 ![](./imgs/28.png)
 **Worked!!!** but needed me to relax the password policy with mysql> SET GLOBAL validate_password.policy = 0; after checking the policy in force with mysql> SHOW VARIABLES LIKE 'validate_password%'
