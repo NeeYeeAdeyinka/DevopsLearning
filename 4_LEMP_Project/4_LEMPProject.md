@@ -69,11 +69,14 @@
 ![](./imgs/27.png)
 
 **Needed to do quite a lot of custom mods to get my php script to work - apparently using special characters '@' & '$' in the TestDBuser password caused trouble - found this out in /var/log/nginx/error.log**
+
 **Did not work!!!**
 ![](./imgs/28.png)
+
 **Worked!!!** but needed me to relax the password policy with mysql> SET GLOBAL validate_password.policy = 0; after checking the policy in force with mysql> SHOW VARIABLES LIKE 'validate_password%'
 ![](./imgs/29.png)
-##### Needed to associate TestDBUser specifically with localhost and my windows PC IP - need to investigate this further
+
+#### Needed to associate TestDBUser specifically with localhost and my windows PC IP - need to investigate this further
 ![](./imgs/30.png)
 
 ### Finally success smiled at me after almost 9 hours of struggles :)
