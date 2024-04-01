@@ -1,0 +1,30 @@
+sudo mysql u <user> -p <system prompt for password> -h <IP addy>
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'qazp1234';
+sudo mysql -u <user> -p <system prompt for password> -h <IP address> #sudo mysql no user spec implies root use. The -p flag is to prompt SQL to ask for root password
+sudo mysql_secure_installation
+CREATE DATABASE `TestDB`;  #Use backticks `` instead of ''
+SHOW DATABASES;
+DROP DATABASE `TestDB`; #Use backticks `` instead of ''
+
+SHOW VARIABLES LIKE 'validate_password%';
++-------------------------------------------------+-------+
+| Variable_name                                   | Value |
++-------------------------------------------------+-------+
+| validate_password.changed_characters_percentage | 0     |
+| validate_password.check_user_name               | ON    |
+| validate_password.dictionary_file               |       |
+| validate_password.length                        | 8     |
+| validate_password.mixed_case_count              | 1     |
+| validate_password.number_count                  | 1     |
+| validate_password.policy                        | LOW   |
+| validate_password.special_char_count            | 1     |
++-------------------------------------------------+-------+
+
+
+
+
+SET GLOBAL validate_password.policy=0; OR SET GLOBAL validate_password.policy=LOW;
+SET GLOBAL validate_password.length=6;
+CREATE USER 'TestDBUser'@'%' IDENTIFIED WITH mysql_native_password BY 'weakpwd';
+SELECT Host,User FROM mysql.user;
+GRANT ALL ON TestDB.* TO 'TestDBuser'@'%';
